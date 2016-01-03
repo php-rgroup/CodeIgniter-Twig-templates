@@ -7,10 +7,8 @@ class Twig
 
     // Extension file
     protected $ext = '.twig';
-    // protected $ext = '.php';
     protected $twig;
 
-    // private $template = APPPATH . 'views';
     private $template = VIEWPATH;
     private $debug = TRUE;
 
